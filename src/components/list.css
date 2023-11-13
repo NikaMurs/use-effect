@@ -1,0 +1,31 @@
+.List{
+    width: 50%;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+}
+
+.listItem{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.listItem:last-child{
+    border-bottom: none;
+}
+
+.listItem:hover{
+    background-color: #e4e4e4;
+    cursor: pointer;
+    color: #000000
+}
+
+.selected{
+    background-color: #0f7ffa;
+    color: #ffffff;
+}
+
+.selected:hover{
+    background-color: #0f7ffa;
+    color: #ffffff;
+}
